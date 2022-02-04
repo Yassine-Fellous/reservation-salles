@@ -1,0 +1,513 @@
+*{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+
+}
+    
+    .messagegreen {
+    background-color: green;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+    color: white;
+    font-size: 1.3em;
+    display: flex; 
+    justify-content: center;
+    }
+    
+    .messagered {
+    background-color: red;
+    font-size: 20px;
+    color: yellow;
+    display: flex; 
+    justify-content: center;
+    }
+    
+    #message {
+        text-align: center;
+        position:fixed;
+        top:0;
+        width:100%;
+        z-index:100;
+        color: white;
+        font-size: 1.7em;
+    }
+    
+
+    
+    /* header style */
+    
+    .headermenu {
+    
+      margin-left: -400px;
+      display: flex;
+      justify-content: space-evenly;
+      background-color: rgb(40, 60, 95);
+      color: white;
+      text-decoration: none;
+      border-radius: 3px;
+      z-index: 20;
+    }
+    
+    .headermenu a {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    height: 65px;
+    width: 140px;
+    line-height: 65px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px 1px rgb(133, 133, 133);
+border-radius: 1.8px;
+}
+    
+.headermenu a:hover {
+background-color: white;
+color: rgb(40, 60, 95);
+}
+    
+.linksmenu {
+text-align: center;
+padding: 2px;
+}
+
+.indexbanner {
+background: url("image/whiteoffice.jpg");
+background-size: cover;
+height: 950px;
+text-shadow: 1px 1px 2px rgba(71, 71, 71, 0.774);
+}
+    
+.index1 {
+padding-top: 19px;
+display: flex;
+justify-content: center;
+}
+    
+    .index2 {
+      text-decoration: none;
+      font-size: 32px;
+      padding-top: 65px;
+      display: flex;
+      justify-content: center;
+      height: 5.9%;
+    }
+    
+    .index2 a {
+      text-decoration: none;
+      background-color: white;
+      border-radius: 10px;
+      color: black;
+      width: 313px;
+      background-color: cornflowerblue;
+    }
+    
+    .index2 a:hover {
+      background-color: black;
+      color: white;
+    }
+    
+    .logintitle{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 30px;  
+    }
+    
+    .loginform {
+    padding-right: 72px;
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    }
+    
+    .loginform a {
+    text-decoration: none;
+    color: rgb(40, 60, 95);
+    }
+    
+    .loginform a:hover {
+    text-decoration-line: underline;
+    }
+    
+    .loginform input {
+      width: 150%;
+      height: 36px;
+      background-color: cornflowerblue;
+       }
+    
+    .connectbutton {
+     padding-top: 27px;  
+     }
+    
+     .connectbutton input {
+      background-color: rgb(40, 60, 95);
+      color: whitesmoke;
+    }
+     
+    /* formulaire inscription*/
+    
+    .registertitle {
+     display: flex;
+     justify-content: center;
+     font-size: 30px;
+     font-weight: 600;
+     padding-top: 30px;
+    }
+    
+    .registerform {
+    margin-right: -9.5px;
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    }
+    
+    .alreadyregister {
+    display: flex;  
+    justify-content: center;
+    font-size: 20px;
+    margin-left:75px;
+    
+    }
+    
+    .alreadyregister a {
+    text-decoration: none;
+    color: rgb(54, 80, 124);
+    }
+    
+    .alreadyregister a:hover {
+    text-decoration-line: underline;
+    }
+           
+    .registerform input {
+    width: 100%;
+    height: 36px;
+    background-color: cornflowerblue
+    }
+    
+    .registerbutton {
+      padding-top: 27px;  
+      }
+         
+    .registerbutton input {
+      background-color: rgb(40, 60, 95);
+      color :whitesmoke;
+      }
+    
+    
+    .infocomm {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .infocomm p {
+    border-style: solid;
+    }
+    
+    .contentcomm {
+    display: flex;
+    justify-content: center; 
+    font-family: cursive;
+    }
+    
+    .clear{
+    clear: both; 
+    height: 25px; 
+    }
+    
+    /*page modification profil */
+    
+    .profiltitle{
+    font-size: 18px;
+    display: flex; 
+    justify-content: center;
+    }
+    
+    .modifylogin{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .modifypassword{
+      display: flex;
+      justify-content: center;
+      }
+    
+    .modifylogin input {
+        width: 100%;
+        height: 36px;
+        background-color: cornflowerblue
+        }
+        
+.modifypassword input  {
+width: 100%;
+ height: 36px;
+ background-color: cornflowerblue
+ }
+          
+      
+    
+    
+.modifypasswordbutton input {
+background-color: rgb(40, 60, 95);
+color: whitesmoke;
+}
+    
+.modifyloginbutton input {
+background-color: rgb(40, 60, 95);color: whitesmoke;
+}
+
+.modifypasswordbutton {
+padding-top: 18px;
+}
+
+.modifyloginbutton {
+padding-top: 17px;
+}
+
+
+.modifyform {
+padding-top: 20px;
+}
+        
+      
+    
+/* style du footer */
+
+footer{
+position:fixed;
+bottom:0;
+width:100%;
+height: 24px;
+background: rgb(40, 60, 95);
+color: whitesmoke;
+font-size: 18px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+}
+    
+footer a:link  {
+text-decoration: none;
+}
+    
+footer a:visited {
+text-decoration: none;
+color: white;
+}
+    
+footer a:hover {
+background-color: white;
+color: cornflowerblue;
+height: 80px;
+}
+    
+footer a {
+color: white;
+margin-bottom: 2px;
+height: 200px;
+}
+
+.footerlivreor{
+display: flex;
+justify-content: center;
+}
+/*page planning*/
+
+table {
+border-collapse: collapse;
+background: white;
+color: black;
+}
+
+th, td { 
+font-weight: bold;
+}
+/*page reservation form*/
+
+*
+.reservationform {
+display: flex;
+justify-content: center;
+flex-direction: column;
+background-color: cornflowerblue;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+border-radius: 15px;
+padding-left: 30px;
+padding-right: 18px;
+margin-left: 10px;
+height: 80%;
+width: 410px;
+margin-left: 35%;
+}
+
+.container h1 {
+display: flex;
+justify-content: center;
+margin-left: -40px;
+text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.setreservation {
+display: flex;
+justify-content: center;
+}
+
+/* boutons planning */
+.consultbooking {
+background-color: yellow;
+margin-right: 2rem;
+border-radius: 9.5px;
+height: 110%;
+width: 47%;
+}
+
+.consultbooking   a {
+text-decoration: none;
+display: flex;
+justify-content: center;
+color: black;
+}
+
+.consultbooking a:hover {
+background-color: rgb(190, 190, 0);
+border-radius: 9px;
+color: rgb(17, 17, 17);
+}
+  
+
+.addbooking {
+font-size: 26px;;
+display: flex;
+justify-content: center;
+background-color: yellow;
+border-radius: 9.5px;
+height: 25%;
+width: 100%;
+margin-top: -20px;
+padding-top: 10px;
+border-top-left-radius: 0%;
+border-top-right-radius: 0%;
+}
+
+.addbooking a {
+text-decoration: none;
+display: flex;
+justify-content: center;
+color: black;
+width: 100%;
+margin-top: -10px;
+border-top-left-radius: 0%;
+border-top-right-radius: 0%;
+}
+
+.addbooking a:hover {
+background-color: rgb(190, 190, 0);
+border-radius: 9px;
+color: rgb(17, 17, 17);
+border-top-left-radius: 0%;
+border-top-right-radius: 0%;
+}
+
+.booking {
+display: flex;
+flex-direction: row;
+font-size: 1.5rem;
+}
+
+body {
+padding-bottom: 0px;
+}
+
+    
+ .infocomm {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .infocomm p {
+  border-style: solid;
+  }
+  
+  .contentcomm {
+  display: flex;
+  justify-content: center; 
+  font-family: cursive;
+  }
+  
+  .clear{
+  clear: both; 
+  height: 25px; 
+  }
+  
+  .livreorbutton a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 24px;
+  padding-top: 75px;
+  color: rgb(148, 0, 0);;
+  }
+  
+  .livreorbutton img {
+    position: relative;
+    top: 60px; left: 50px;
+    top: -52px;
+    left: 16px;
+  }
+
+
+ /* Style de la barre de connexion */
+
+ .topnav {
+  background-color: rgb(59, 88, 138);
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #menuprofil {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: rgb(40, 60, 95);
+  color: white;
+}
+
+.topnav #modifyprofilmenu {
+  display: none;
+}
+
+
+article {
+  overflow-x: hidden;
+}
